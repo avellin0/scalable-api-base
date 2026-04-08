@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+
+    "target": "es2025",                                   /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "NodeNext",                                 /* Specify what module code is generated. */
+    "moduleResolution": "nodenext",  
+    "baseUrl": "./src", 
+    "paths": {
+      "@/*": ["*"],
+      "@services/*": ["services/*"],
+      "@controllers/*": ["controllers/*"],
+      "@repositories/*": ["repositories/*"],
+      "@utils/*": ["utils/*"],
+      "@domain/*": ["domain/*"]
+    },
+    "ignoreDeprecations": "6.0",                          /* Suppress noImplicitOverride errors from TypeScript 6.0. */
+    "rootDir": "./src",                        
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,    
+    "forceConsistentCasingInFileNames": true,             /* Ensure that casing is correct in imports. */
+    "strict": true,                                       /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                  /* Skip type checking all .d.ts files. */
+  },
+  "exclude": [
+    "node_modules"
+  ],
+}
