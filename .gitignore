@@ -1,0 +1,13 @@
+./src/infra/.env
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+node_modules
+dist
+coverage
+logs
+*.log
+*.tsbuildinfo
